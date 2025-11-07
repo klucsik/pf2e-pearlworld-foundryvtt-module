@@ -1,0 +1,21 @@
+{
+    "id": "pf2e-pearlworld",
+    "name": "pf2e-pearlworld",
+    "title": "PF2E Pearlworld",
+    "description": "A Pathfinder 2E world and setting module.",
+    "authors": [
+        {
+            "name": "Klucsik Krisztián Pál",
+            "discord": "klucsik"
+        },
+        {
+            "name": "Ódor Levente",
+            "discord": "thecringeone"
+        }
+    ],
+    "version": "0.0.0",
+    "minimumCoreVersion": "0.8.8",
+    "scripts": [
+        "scripts/pearlworld.js"
+    ]
+}
