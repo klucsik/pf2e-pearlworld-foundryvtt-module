@@ -1,0 +1,2 @@
+# Pearlworld pf2e foundry module
+This foundry module is for the pearlworld written by Klucsik Krisztán Pál, it features new ancestries, extended calendar with Drakonír's 17 months, custom languages and additional lore
