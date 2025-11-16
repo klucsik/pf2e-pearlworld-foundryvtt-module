@@ -1,0 +1,86 @@
+{
+  "name": "Draconic Breath",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.948,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">Choose a shape for your breath: </span>@Template[type:line|distance:30] or a @Template[type:cone|distance:15].<span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\"> You can later retrain this choice by spending a week of downtime relearning how to control your neck and facial muscles to achieve a different shape. Your breath gains a trait, damage type and a saving throw based on the heritage you choose, shown in the table above. The DC is your Class DC or your Spell Save DC if you have one, whichever is the higher. Your breath deals 1d4 damage of your heritage’s type. On 3rd level and every second level after that, the damage increases by 1d4.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Eonia",
+      "authors": "Regil",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "promt": "Choose the shape for your breath",
+        "choices": [
+          {
+            "label": "30 feet line",
+            "value": "line"
+          },
+          {
+            "label": "15 feet cone",
+            "value": "cone"
+          }
+        ],
+        "flag": "shape"
+      }
+    ],
+    "slug": "draconic-breath",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "systems/pf2e/icons/features/classes/dragon-instinct.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "fixcu0cIvWC9ejLr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4",
+    "createdTime": 1763324657970,
+    "modifiedTime": 1763324657970,
+    "lastModifiedBy": "fixcu0cIvWC9ejLr"
+  },
+  "_id": "7H6SqCp0Fri1UvJA",
+  "sort": 0,
+  "_key": "!items!7H6SqCp0Fri1UvJA"
+}

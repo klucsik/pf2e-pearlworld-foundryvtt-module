@@ -1,21 +1,79 @@
 {
-    "id": "pf2e-pearlworld",
-    "name": "pf2e-pearlworld",
-    "title": "PF2E Pearlworld",
-    "description": "A Pathfinder 2E world and setting module.",
-    "authors": [
-        {
-            "name": "Klucsik Krisztián Pál",
-            "discord": "klucsik"
-        },
-        {
-            "name": "Ódor Levente",
-            "discord": "thecringeone"
-        }
-    ],
-    "version": "0.0.0",
-    "minimumCoreVersion": "0.8.8",
-    "scripts": [
-        "scripts/pearlworld.js"
+  "id": "pf2e-pearlworld",
+  "title": "PF2E Pearlworld",
+  "description": "<p>A Pathfinder 2E world and setting module.</p>",
+  "authors": [
+    {
+      "name": "Klucsik Krisztián Pál",
+      "discord": "klucsik",
+      "flags": {}
+    },
+    {
+      "name": "Ódor Levente",
+      "discord": "thecringeone",
+      "flags": {}
+    }
+  ],
+  "version": "0.0.0",
+  "scripts": [
+    "scripts/pearlworld.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
     ]
+  },
+  "packs": [
+    {
+      "name": "ancestries",
+      "label": "Ancestries",
+      "path": "packs/ancestries",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    },
+    {
+      "name": "ancestry-features",
+      "label": "Ancestry Features",
+      "path": "packs/ancestry-features",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    },
+    {
+      "name": "heritages",
+      "label": "Heritages",
+      "path": "packs/heritages",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Pearlworld Compendia",
+      "sorting": "m",
+      "packs": [
+        "ancestries",
+        "ancestry-features",
+        "heritages"
+      ],
+      "color": null,
+      "folders": []
+    }
+  ],
+  "flags": {}
 }
