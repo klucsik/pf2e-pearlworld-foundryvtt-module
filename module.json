@@ -33,27 +33,38 @@
       "label": "Ancestries",
       "path": "packs/ancestries",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
     {
       "name": "ancestry-features",
       "label": "Ancestry Features",
       "path": "packs/ancestry-features",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
     {
       "name": "heritages",
       "label": "Heritages",
       "path": "packs/heritages",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -69,7 +80,8 @@
       "packs": [
         "ancestries",
         "ancestry-features",
-        "heritages"
+        "heritages",
+        "feats"
       ],
       "color": null,
       "folders": []

@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Ancestry",
+  "color": null,
+  "sorting": "a",
+  "_id": "wBLlPSuFaRh9nxQS",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4",
+    "createdTime": 1764431086387,
+    "modifiedTime": 1764431086387,
+    "lastModifiedBy": "fixcu0cIvWC9ejLr"
+  },
+  "_key": "!folders!wBLlPSuFaRh9nxQS"
+}

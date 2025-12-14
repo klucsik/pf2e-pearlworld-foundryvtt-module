@@ -1,1 +1,0 @@
-console.log("pf2e-pearlworld | Welcome to Pearl World!");

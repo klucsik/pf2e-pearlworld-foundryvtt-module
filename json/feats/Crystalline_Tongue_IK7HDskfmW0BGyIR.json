@@ -1,0 +1,135 @@
+{
+  "name": "Crystalline Tongue",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.948,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\" id=\"docs-internal-guid-2a7ebad2-7fff-422f-3d2e-aa02c2da8b19\">You have an innate sense of how to use your draconic presence in conversations or you learned it from your crystalline brethren. You become trained in Diplomacy or Intimidation and you gain a 1st level skill feat associated with your chosen skill.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "prompt": "Skill Selection",
+        "flag": "skill",
+        "choices": [
+          {
+            "label": "Diplomacy",
+            "value": "diplomacy"
+          },
+          {
+            "label": "Intimidation",
+            "value": "intimidation"
+          }
+        ]
+      },
+      {
+        "key": "ChoiceSet",
+        "prompt": "Select a feat",
+        "adjustName": false,
+        "choices": [
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.5nc5ridFBfYpn2Om"
+          },
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.0GF2j54roPFIDmXf"
+          },
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.gUqvezs2zzoTXFAI"
+          },
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk"
+          },
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.4RjDxgvNXNl5GG9d"
+          },
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce"
+          },
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.6ON8DjFXSMITZleX"
+          },
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.ar2DUlvDK4LDcH9J"
+          },
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.5s8FqK4YZTVOvP0v"
+          },
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.CwGMDf0akn0VbNPb"
+          }
+        ],
+        "flag": "feat"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.pf2e.rulesSelections.skill}.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.feat}",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "folder": "1GZx3GgJdDfIdLYz",
+  "ownership": {
+    "default": 0,
+    "fixcu0cIvWC9ejLr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4",
+    "createdTime": 1764431030527,
+    "modifiedTime": 1764431103996,
+    "lastModifiedBy": "fixcu0cIvWC9ejLr"
+  },
+  "_id": "IK7HDskfmW0BGyIR",
+  "sort": 100000,
+  "_key": "!items!IK7HDskfmW0BGyIR"
+}

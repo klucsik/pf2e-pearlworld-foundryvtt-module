@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "wBLlPSuFaRh9nxQS",
+  "name": "Draconian",
+  "color": null,
+  "sorting": "a",
+  "_id": "1GZx3GgJdDfIdLYz",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!1GZx3GgJdDfIdLYz"
+}
