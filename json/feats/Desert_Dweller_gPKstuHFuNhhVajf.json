@@ -21,7 +21,7 @@
       {
         "key": "Resistance",
         "type": "fire",
-        "value": "floor(@actor.level/2)"
+        "value": "max(1,floor(@actor.level/2))"
       },
       {
         "key": "FlatModifier",
@@ -76,7 +76,7 @@
     "systemId": "pf2e",
     "systemVersion": "7.6.4",
     "createdTime": 1764431033949,
-    "modifiedTime": 1764431105647,
+    "modifiedTime": 1765738966427,
     "lastModifiedBy": "fixcu0cIvWC9ejLr"
   },
   "_id": "gPKstuHFuNhhVajf",

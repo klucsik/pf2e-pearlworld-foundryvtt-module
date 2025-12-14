@@ -1,0 +1,138 @@
+{
+  "name": "Draconian Weapon Familiarity",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.948,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">You trained with the Dragon Legions of the empire. You gain access to all uncommon weapons with the draconian trait (asp coil, khopesh, temple sword). You have familiarity with weapons with the draconian trait plus the bastard sword, glaive and lance — for the purposes of proficiency, you treat any of these that are martial weapons as simple weapons and any that are advanced weapons as martial weapons.</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt\"><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">At 5th level, whenever you get a critical hit with one of these weapons, you get its critical specialization effect.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "MartialProficiency",
+        "definition": [
+          {
+            "and": [
+              {
+                "or": [
+                  "item:base:bastard-sword",
+                  "item:base:glaive",
+                  "item:base:lance",
+                  "item:base:asp-coil",
+                  "item:base:temple-sword",
+                  "item:base:khopes"
+                ]
+              },
+              "item:category:martial"
+            ]
+          }
+        ],
+        "sameAs": "simple",
+        "slug": "martial-draconic-weapons",
+        "label": "Martial Draconian Weapons"
+      },
+      {
+        "key": "MartialProficiency",
+        "definition": [
+          {
+            "and": [
+              {
+                "or": [
+                  "item:base:bastard-sword",
+                  "item:base:glaive",
+                  "item:base:lance",
+                  "item:base:asp-coil",
+                  "item:base:temple-sword",
+                  "item:base:khopes"
+                ]
+              },
+              "item:category:advanced"
+            ]
+          }
+        ],
+        "sameAs": "martial",
+        "slug": "advanced-draconic-weapons",
+        "label": "Advanced Draconian Weapons"
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          },
+          {
+            "or": [
+              "item:base:bastard-sword",
+              "item:base:glaive",
+              "item:base:lance",
+              "item:base:asp-coil",
+              "item:base:temple-sword",
+              "item:base:khopes"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "folder": "1GZx3GgJdDfIdLYz",
+  "ownership": {
+    "default": 0,
+    "fixcu0cIvWC9ejLr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4",
+    "createdTime": 1765741406156,
+    "modifiedTime": 1765741406156,
+    "lastModifiedBy": "fixcu0cIvWC9ejLr"
+  },
+  "_id": "VuQSnPKJKyGwmycJ",
+  "sort": 0,
+  "_key": "!items!VuQSnPKJKyGwmycJ"
+}
