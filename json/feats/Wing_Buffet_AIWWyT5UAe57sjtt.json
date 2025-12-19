@@ -1,0 +1,77 @@
+{
+  "folder": "1GZx3GgJdDfIdLYz",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Wing Buffet",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You have a pair of draconic wings strong enough to batter your foes away and shove them away. Choose up to two creatures adjacent to you. Attempt an @Check[athletics|defense:fortitude] check and compare it to the Fortitude DC of each target. This counts as two attacks for your multiple attack penalty, but the penalty doesn't increase until after both attacks.</p><hr /><p><strong>Critical Success</strong> The target takes bludgeoning damage equal to double your level (@Damage[2*@actor.level[bludgeoning]]) and is pushed up to 10 feet away from you.</p>\n<p><strong>Success</strong> The target takes bludgeoning damage equal to your level (@Damage[@actor.level[bludgeoning]]) and is pushed up to 5 feet away from you.</p>\n<p><strong>Failure</strong> The target takes bludgeoning damage equal to half your level (@Damage[(floor(@actor.level/2))[bludgeoning]]).</p>\n<p><strong>Critical Failure</strong> You fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} at the end of this activity.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 9
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "expert in Athletics"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "attack",
+        "dragonblood"
+      ],
+      "otherTags": []
+    },
+    "slug": "wing-buffet",
+    "_migration": {
+      "version": 0.948,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4",
+    "createdTime": 1766159345007,
+    "modifiedTime": 1766161359025,
+    "lastModifiedBy": "fixcu0cIvWC9ejLr"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "fixcu0cIvWC9ejLr": 3
+  },
+  "flags": {},
+  "_id": "AIWWyT5UAe57sjtt",
+  "sort": 500000,
+  "_key": "!items!AIWWyT5UAe57sjtt"
+}

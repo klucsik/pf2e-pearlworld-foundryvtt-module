@@ -1,5 +1,5 @@
 {
-  "name": "Desert Dweller",
+  "name": "Winged Inheritance",
   "type": "feat",
   "effects": [],
   "system": {
@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\" id=\"docs-internal-guid-75fe296f-7fff-3bef-6ec5-44706e286277\">You adapted to living in the scorching deserts of Dracónia. You gain fire resistance equal to half of your level, rounded down. In addition, you treat hazardous heat as one step lower: incredible heat as extreme heat; extreme heat as severe heat; severe heat as mild heat. You are also adept in providing food and water in desert environments: you gain +2 circumstance bonus to subsist in deserts.</span></p>",
+      "value": "<p><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\" id=\"docs-internal-guid-f930d11f-7fff-1c73-c36e-5593605ac195\">You are born with larger than usual wings (if you are a chromatic or metallic draconian) or innate psychic abilities that allow you to slow your falls (if you are a crystalline draconian). You gain the Catfall skill feat, even if you don’t meet the prerequisites.</span></p>",
       "gm": ""
     },
     "publication": {
@@ -19,18 +19,8 @@
     },
     "rules": [
       {
-        "key": "Resistance",
-        "type": "fire",
-        "value": "max(1,floor(@actor.level/2))"
-      },
-      {
-        "key": "FlatModifier",
-        "selector": "survival",
-        "value": 2,
-        "type": "circumstance",
-        "predicate": [
-          "action:subsist:survival"
-        ]
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.LQw0yIMDUJJkq1nD"
       }
     ],
     "slug": null,
@@ -75,11 +65,11 @@
     "coreVersion": "13.350",
     "systemId": "pf2e",
     "systemVersion": "7.6.4",
-    "createdTime": 1764431033949,
+    "createdTime": 1766158195612,
     "modifiedTime": 1766161359025,
     "lastModifiedBy": "fixcu0cIvWC9ejLr"
   },
-  "_id": "gPKstuHFuNhhVajf",
-  "sort": 1500000,
-  "_key": "!items!gPKstuHFuNhhVajf"
+  "_id": "XlTSillWgREFkZ11",
+  "sort": 900000,
+  "_key": "!items!XlTSillWgREFkZ11"
 }

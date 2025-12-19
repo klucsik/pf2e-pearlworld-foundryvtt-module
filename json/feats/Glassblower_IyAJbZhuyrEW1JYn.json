@@ -1,5 +1,5 @@
 {
-  "name": "Draconian Lore",
+  "name": "Glassblower",
   "type": "feat",
   "effects": [],
   "system": {
@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">You studied the history and culture of the dragonkin, learned about tactics, victories, losses and all the cultures they encountered on their conquests. You gain the trained proficiency rank in Athletics and Society. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also gain the Additional Lore general feat for Dragon Lore.</span></p><hr /><p><em>Note: If you are already trained in the skill provided by this feat, you need to manually select an alternative skill.</em> <em>You also need to manually enter the granted Lore skill.</em></p>",
+      "value": "<p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt\"><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">You worked in the vast glass forges of the empire and learned the ancient art of shaping glass with your breath, creating vitrunn in the process. You gain the trained proficiency rank in the Crafting skill and you gain the Specialty Crafting feat that applies to Glassmaking. If you would automatically become trained in Crafting (from your background or class, for example), you instead become trained in a skill of your choice.</span></p><hr /><p><em>Note: If you are already trained in the skill provided by this feat, you need to manually select an alternative skill.</em></p>",
       "gm": ""
     },
     "publication": {
@@ -21,18 +21,12 @@
       {
         "key": "ActiveEffectLike",
         "mode": "upgrade",
-        "path": "system.skills.athletics.rank",
-        "value": 1
-      },
-      {
-        "key": "ActiveEffectLike",
-        "mode": "upgrade",
-        "path": "system.skills.society.rank",
+        "path": "system.skills.crafting.rank",
         "value": 1
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x"
+        "uuid": "Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o"
       }
     ],
     "slug": null,
@@ -54,7 +48,11 @@
       "value": null
     },
     "prerequisites": {
-      "value": []
+      "value": [
+        {
+          "value": "draconic breath or similar ability"
+        }
+      ]
     },
     "subfeatures": {
       "proficiencies": {},
@@ -77,11 +75,11 @@
     "coreVersion": "13.350",
     "systemId": "pf2e",
     "systemVersion": "7.6.4",
-    "createdTime": 1765739144850,
+    "createdTime": 1765916462886,
     "modifiedTime": 1766161359025,
     "lastModifiedBy": "fixcu0cIvWC9ejLr"
   },
-  "_id": "PCaLfJxgFzATvbtB",
-  "sort": 1400000,
-  "_key": "!items!PCaLfJxgFzATvbtB"
+  "_id": "IyAJbZhuyrEW1JYn",
+  "sort": 1100000,
+  "_key": "!items!IyAJbZhuyrEW1JYn"
 }

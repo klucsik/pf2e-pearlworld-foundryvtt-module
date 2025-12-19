@@ -1,0 +1,171 @@
+{
+  "name": "Dragon’s Might",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.948,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">You learned how to use your naturally given draconic features for violence. You gain your choice of one of the following unarmed attacks. The attack is in the brawling group and has the listed damage die and traits.</span></p><p dir=\"ltr\" style=\"line-height:1.38;text-indent:-18pt;margin-top:12pt;margin-bottom:12pt;padding:0pt 0pt 0pt 18pt\"><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">·</span><span style=\"font-size:6.999999999999999pt;font-family:'Times New Roman', serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">         </span><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">Claw 1d4 slashing (agile, finesse, unarmed)</span></p><p dir=\"ltr\" style=\"line-height:1.38;text-indent:-18pt;margin-top:12pt;margin-bottom:12pt;padding:0pt 0pt 0pt 18pt\"><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">·</span><span style=\"font-size:6.999999999999999pt;font-family:'Times New Roman', serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">         </span><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">Jaws 1d6 piercing (forceful, unarmed)</span></p><p dir=\"ltr\" style=\"line-height:1.38;text-indent:-18pt;margin-top:12pt;margin-bottom:12pt;padding:0pt 0pt 0pt 18pt\"><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">·</span><span style=\"font-size:6.999999999999999pt;font-family:'Times New Roman', serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">         </span><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">Tail 1d6 bludgeoning (reach, trip, unarmed)</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt\"><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\"><em>Special: you can select this feat multiple times. Each time, you can choose a new unarmed attack that you don’t have yet.</em></span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Claw",
+            "value": "claw",
+            "predicate": [
+              {
+                "not": "dragons-might:claw"
+              }
+            ]
+          },
+          {
+            "label": "Jaws",
+            "value": "jaws",
+            "predicate": [
+              {
+                "not": "dragons-might:jaws"
+              }
+            ]
+          },
+          {
+            "label": "Tail",
+            "value": "tail",
+            "predicate": [
+              {
+                "not": "dragons-might:tail"
+              }
+            ]
+          }
+        ],
+        "prompt": "Select an unarmed strike",
+        "rollOption": "dragons-might",
+        "flag": "dragons-might"
+      },
+      {
+        "key": "Strike",
+        "predicate": [
+          "dragons-might:claw"
+        ],
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "brawling",
+        "label": "Claw",
+        "traits": [
+          "agile",
+          "finesse",
+          "unarmed"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/claw.webp"
+      },
+      {
+        "key": "Strike",
+        "predicate": [
+          "dragons-might:jaws"
+        ],
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "label": "Jaws",
+        "traits": [
+          "forceful",
+          "unarmed"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp"
+      },
+      {
+        "key": "Strike",
+        "predicate": [
+          "dragons-might:tail"
+        ],
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "label": "Tail",
+        "traits": [
+          "reach",
+          "trip",
+          "unarmed"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/tail.webp"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "folder": "1GZx3GgJdDfIdLYz",
+  "ownership": {
+    "default": 0,
+    "fixcu0cIvWC9ejLr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4",
+    "createdTime": 1765916019713,
+    "modifiedTime": 1766161359025,
+    "lastModifiedBy": "fixcu0cIvWC9ejLr"
+  },
+  "_id": "B3NYgZ1w0vnPi2Fx",
+  "sort": 1200000,
+  "_key": "!items!B3NYgZ1w0vnPi2Fx"
+}

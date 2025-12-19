@@ -1,0 +1,91 @@
+{
+  "folder": "1GZx3GgJdDfIdLYz",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Lingering Breath",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Your draconic breath destroys the surrounding environment and leaves your enemies in pain. When you use Draconic Breath, the area of your breath becomes difficult terrain for 1 minute. In addition, a creature who fails or critically fails its saving throw takes 2d6 persistent damage of the same type.</p><hr /><p><em>Note: This feat has been edited to work with the Draconian ancestry's @UUID[Compendium.pf2e-pearlworld.ancestry-features.Item.7H6SqCp0Fri1UvJA]{Draconic Breath} ability</em></p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 17
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Breath of the Dragon"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:draconic-breath"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "PF2E.SpecificRule.Dragonblood.LingeringBreath.Description"
+          }
+        ]
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "dragonblood"
+      ],
+      "otherTags": []
+    },
+    "slug": "lingering-breath",
+    "_migration": {
+      "version": 0.948,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4",
+    "createdTime": 1766161358987,
+    "modifiedTime": 1766161387009,
+    "lastModifiedBy": "fixcu0cIvWC9ejLr"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "fixcu0cIvWC9ejLr": 3
+  },
+  "flags": {},
+  "_id": "gtcpQyojIY7U7Hhy",
+  "sort": 200000,
+  "_key": "!items!gtcpQyojIY7U7Hhy"
+}

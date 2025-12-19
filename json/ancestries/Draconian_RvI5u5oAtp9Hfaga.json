@@ -1,0 +1,171 @@
+{
+  "name": "Draconian",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "promt": "Choose your Draconic Exemplar",
+        "choices": [
+          {
+            "label": "Chromatic",
+            "value": {
+              "value": "chromatic",
+              "trait": "divine",
+              "dmgType": "spirit",
+              "save": "fortitude"
+            }
+          },
+          {
+            "label": "Metallic",
+            "value": {
+              "value": "metallic",
+              "trait": "arcane",
+              "dmgType": "force",
+              "save": "reflex"
+            }
+          },
+          {
+            "label": "Crystalline",
+            "value": {
+              "value": "crystalline",
+              "trait": "occult",
+              "dmgType": "mental",
+              "save": "will"
+            }
+          }
+        ],
+        "flag": "exemplar",
+        "rollOption": "draconic-exemplar",
+        "priority": 1
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:draconic-breath"
+        ],
+        "property": "traits",
+        "value": "{item|flags.pf2e.rulesSelections.exemplar.trait}"
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:draconic-breath"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "@Check[{item|flags.pf2e.rulesSelections.exemplar.save}|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]",
+            "title": "Save"
+          },
+          {
+            "text": "@Damage[(ceil(@actor.level/2)d4)[{item|flags.pf2e.rulesSelections.exemplar.dmgType}]|options:area-damage]",
+            "title": "Damage"
+          }
+        ]
+      },
+      {
+        "key": "RollOption",
+        "option": "draconic-exemplar:{item|flags.pf2e.rulesSelections.exemplar.value}",
+        "priority": 10
+      }
+    ],
+    "slug": "draconian",
+    "_migration": {
+      "version": 0.948,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Eonia",
+      "authors": "Regil",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 8,
+    "size": "med",
+    "hands": 2,
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": [
+          "con"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [
+        "common",
+        "draconic"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "3frN3": {
+        "uuid": "Compendium.pf2e-pearlworld.ancestry-features.Item.7H6SqCp0Fri1UvJA",
+        "img": "systems/pf2e/icons/features/classes/dragon-instinct.webp",
+        "name": "Draconic Breath",
+        "level": 1
+      }
+    },
+    "vision": "normal"
+  },
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "fixcu0cIvWC9ejLr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4",
+    "createdTime": 1766157953434,
+    "modifiedTime": 1766158488876,
+    "lastModifiedBy": "fixcu0cIvWC9ejLr"
+  },
+  "_id": "RvI5u5oAtp9Hfaga",
+  "sort": 0,
+  "_key": "!items!RvI5u5oAtp9Hfaga"
+}

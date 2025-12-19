@@ -1,0 +1,54 @@
+{
+  "name": "Metallic Draconian",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.948,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\" id=\"docs-internal-guid-b044c02e-7fff-2d1f-e439-ca3cca55b660\">You descended from the Dragon King. Your scales gleam with a metallic sheen, resembling gold, silver, bronze, copper or brass (or the exceedingly rare platinum with the GM’s permission). During your daily preparations, you can choose one of the following cantrips: @UUID[Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC]{Prestidigitation}, @UUID[Compendium.pf2e.spells-srd.Item.yvs1zN5Pai5U4CJX]{Summon Instrument} or @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]{Telekinetic Hand}. You can cast this cantrip as an innate arcane spell until your next daily preparations. The cantrip is automatically leveled up to half of your level rounded up.</span></p><hr /><p><em>Automatic spellcasting entry creation is not implemented yet.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Draconian",
+      "slug": "draconian",
+      "uuid": "Compendium.pf2e-pearlworld.ancestries.Item.RvI5u5oAtp9Hfaga"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "ivk0226jvhxTBtfa",
+  "ownership": {
+    "default": 0,
+    "fixcu0cIvWC9ejLr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4",
+    "createdTime": 1766158024725,
+    "modifiedTime": 1766159221026,
+    "lastModifiedBy": "fixcu0cIvWC9ejLr"
+  },
+  "_id": "9uGRNr8kMTmzNs3a",
+  "sort": 200000,
+  "_key": "!items!9uGRNr8kMTmzNs3a"
+}

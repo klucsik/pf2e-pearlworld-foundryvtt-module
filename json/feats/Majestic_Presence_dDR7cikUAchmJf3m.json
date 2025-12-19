@@ -1,0 +1,76 @@
+{
+  "folder": "1GZx3GgJdDfIdLYz",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Majestic Presence",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>By taking an impressive stance, the full force of your personality cows lesser beings. Each creature in a @Template[emanation|distance:20] must attempt a @Check[will|against:class-spell] save against the higher of your class DC or spell DC. Regardless of the result of the saving throw, the creature is temporarily immune to your Majestic Presence for 24 hours.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 4}.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 13
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "dragonblood",
+        "emotion",
+        "fear",
+        "mental",
+        "visual"
+      ],
+      "otherTags": []
+    },
+    "slug": "majestic-presence",
+    "_migration": {
+      "version": 0.948,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4",
+    "createdTime": 1766159353188,
+    "modifiedTime": 1766161359025,
+    "lastModifiedBy": "fixcu0cIvWC9ejLr"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "fixcu0cIvWC9ejLr": 3
+  },
+  "flags": {},
+  "_id": "dDR7cikUAchmJf3m",
+  "sort": 100000,
+  "_key": "!items!dDR7cikUAchmJf3m"
+}

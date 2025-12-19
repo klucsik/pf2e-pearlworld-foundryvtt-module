@@ -1,0 +1,141 @@
+{
+  "folder": "1GZx3GgJdDfIdLYz",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Formidable Breath",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Thanks to rigorous breathing exercises and a diet similar to that of your lineage, your magical breath is more powerful. The area of your Breath of the Dragon increases to 30 feet for a cone or 60 feet for a line, and the damage dice are d6s instead of d4s.</p><hr /><p><em>Note: This feat has been edited to work with the Draconian ancestry's @UUID[Compendium.pf2e-pearlworld.ancestry-features.Item.7H6SqCp0Fri1UvJA]{Draconic Breath} ability</em></p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 9
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Breath of the Dragon"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:draconic-breath"
+        ],
+        "priority": 151,
+        "property": "description",
+        "value": [
+          {
+            "predicate": [
+              "draconic-exemplar:crystalline"
+            ],
+            "text": "@Damage[(ceil(@actor.level/2)d6)[mental]|options:area-damage]",
+            "title": "Damage"
+          },
+          {
+            "predicate": [
+              "draconic-exemplar:chromatic"
+            ],
+            "text": "@Damage[(ceil(@actor.level/2)d6)[spirit]|options:area-damage]",
+            "title": "Damage"
+          },
+          {
+            "predicate": [
+              "draconic-exemplar:metallic"
+            ],
+            "text": "@Damage[(ceil(@actor.level/2)d6)[force]|options:area-damage]",
+            "title": "Damage"
+          },
+          {
+            "text": "@Template[type:line|distance:60] @Template[type:cone|distance:30]"
+          },
+          {
+            "predicate": [
+              "breath-of-the-dragon:cone",
+              "breath-of-the-dragon:will"
+            ],
+            "text": "PF2E.SpecificRule.Dragonblood.FormidableBreath.Cone.Will"
+          },
+          {
+            "predicate": [
+              "breath-of-the-dragon:line",
+              "breath-of-the-dragon:fortitude"
+            ],
+            "text": "PF2E.SpecificRule.Dragonblood.FormidableBreath.Line.Fortitude"
+          },
+          {
+            "predicate": [
+              "breath-of-the-dragon:line",
+              "breath-of-the-dragon:reflex"
+            ],
+            "text": "PF2E.SpecificRule.Dragonblood.FormidableBreath.Line.Reflex"
+          },
+          {
+            "predicate": [
+              "breath-of-the-dragon:line",
+              "breath-of-the-dragon:will"
+            ],
+            "text": "PF2E.SpecificRule.Dragonblood.FormidableBreath.Line.Will"
+          }
+        ]
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "dragonblood"
+      ],
+      "otherTags": []
+    },
+    "slug": "formidable-breath",
+    "_migration": {
+      "version": 0.948,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4",
+    "createdTime": 1766161157130,
+    "modifiedTime": 1766161384724,
+    "lastModifiedBy": "fixcu0cIvWC9ejLr"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "fixcu0cIvWC9ejLr": 3
+  },
+  "flags": {},
+  "_id": "jPED1Q8QGhjUcF6c",
+  "sort": 300000,
+  "_key": "!items!jPED1Q8QGhjUcF6c"
+}

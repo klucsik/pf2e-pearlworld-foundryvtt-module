@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\" id=\"docs-internal-guid-2a7ebad2-7fff-422f-3d2e-aa02c2da8b19\">You have an innate sense of how to use your draconic presence in conversations or you learned it from your crystalline brethren. You become trained in Diplomacy or Intimidation and you gain a 1st level skill feat associated with your chosen skill.</span></p>",
+      "value": "<p><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\" id=\"docs-internal-guid-2a7ebad2-7fff-422f-3d2e-aa02c2da8b19\">You have an innate sense of how to use your draconic presence in conversations or you learned it from your crystalline brethren. You become trained in Diplomacy or Intimidation and you gain a 1st level skill feat associated with your chosen skill.</span></p><hr /><p><em>Note: All diplomacy and intimidation associated feats a promped after skill selection.</em></p>",
       "gm": ""
     },
     "publication": {
@@ -126,10 +126,10 @@
     "systemId": "pf2e",
     "systemVersion": "7.6.4",
     "createdTime": 1764431030527,
-    "modifiedTime": 1764431103996,
+    "modifiedTime": 1766161359025,
     "lastModifiedBy": "fixcu0cIvWC9ejLr"
   },
   "_id": "IK7HDskfmW0BGyIR",
-  "sort": 100000,
+  "sort": 1300000,
   "_key": "!items!IK7HDskfmW0BGyIR"
 }

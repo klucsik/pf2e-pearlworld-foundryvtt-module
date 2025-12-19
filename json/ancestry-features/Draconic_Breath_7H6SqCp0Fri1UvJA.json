@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">Choose a shape for your breath: </span>@Template[type:line|distance:30] or a @Template[type:cone|distance:15].<span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\"> You can later retrain this choice by spending a week of downtime relearning how to control your neck and facial muscles to achieve a different shape. Your breath gains a trait, damage type and a saving throw based on the heritage you choose, shown in the table above. The DC is your Class DC or your Spell Save DC if you have one, whichever is the higher. Your breath deals 1d4 damage of your heritage’s type. On 3rd level and every second level after that, the damage increases by 1d4.</span></p>",
+      "value": "<p><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">Choose a shape for your breath: </span>@Template[type:line|distance:30] or a @Template[type:cone|distance:15].<span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\"> You can later retrain this choice by spending a week of downtime relearning how to control your neck and facial muscles to achieve a different shape. Your breath gains a trait, damage type and a saving throw based on the heritage you choose, shown in the table above. The DC is your Class DC or your Spell Save DC if you have one, whichever is the higher. Your breath deals 1d4 damage of your heritage’s type. On 3rd level and every second level after that, the damage increases by 1d4.</span></p><hr /><p><em>Automatic recharge currently isn't implemented.</em></p>",
       "gm": ""
     },
     "publication": {
@@ -77,7 +77,7 @@
     "systemId": "pf2e",
     "systemVersion": "7.6.4",
     "createdTime": 1763324657970,
-    "modifiedTime": 1763324657970,
+    "modifiedTime": 1766158981483,
     "lastModifiedBy": "fixcu0cIvWC9ejLr"
   },
   "_id": "7H6SqCp0Fri1UvJA",

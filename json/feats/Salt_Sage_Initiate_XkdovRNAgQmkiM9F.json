@@ -1,0 +1,102 @@
+{
+  "name": "Salt Sage Initiate",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.948,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\" id=\"docs-internal-guid-269d9448-7fff-d767-2bfd-2a1f884da249\">You were initiated into the magical secrets of the great draconian Salt Sages of the Old World. You become trained in the skill associated with your draconic exemplar: Religion for chromatic, Arcane for metallic and Occultism for crystalline. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. In addition, you gain the Recognize Spell skill feat.</span></p><hr /><p><em>Note: If you are already trained in the skill provided by this feat, you need to manually select an alternative skill.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "predicate": [
+          "draconic-exemplar:chromatic"
+        ],
+        "mode": "upgrade",
+        "path": "system.skills.religion.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "predicate": [
+          "draconic-exemplar:metallic"
+        ],
+        "mode": "upgrade",
+        "path": "system.skills.arcana.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "predicate": [
+          "draconic-exemplar:crystalline"
+        ],
+        "mode": "upgrade",
+        "path": "system.skills.occultism.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.MjQyTcV8Jiv1Jtln"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "folder": "1GZx3GgJdDfIdLYz",
+  "ownership": {
+    "default": 0,
+    "fixcu0cIvWC9ejLr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4",
+    "createdTime": 1766157924105,
+    "modifiedTime": 1766161359025,
+    "lastModifiedBy": "fixcu0cIvWC9ejLr"
+  },
+  "_id": "XkdovRNAgQmkiM9F",
+  "sort": 700000,
+  "_key": "!items!XkdovRNAgQmkiM9F"
+}

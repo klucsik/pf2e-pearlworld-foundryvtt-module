@@ -1,0 +1,89 @@
+{
+  "folder": "1GZx3GgJdDfIdLYz",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Draconic Scent",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Your sense of smell has heightened to be as keen as that of a dragon. You gain imprecise scent with a range of 30 feet. At their discretion, the GM might double this range if you're downwind from the creature or halve this range if you're upwind.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 30,
+        "selector": "scent"
+      }
+    ],
+    "subfeatures": {
+      "senses": {
+        "scent": {
+          "acuity": "imprecise",
+          "range": 30,
+          "special": {
+            "ancestry": false,
+            "llv": false,
+            "second": false
+          }
+        }
+      },
+      "proficiencies": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "dragonblood"
+      ],
+      "otherTags": []
+    },
+    "slug": "draconic-scent",
+    "_migration": {
+      "version": 0.948,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4",
+    "createdTime": 1766159330628,
+    "modifiedTime": 1766161359025,
+    "lastModifiedBy": "fixcu0cIvWC9ejLr"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "fixcu0cIvWC9ejLr": 3
+  },
+  "flags": {},
+  "_id": "qFhjMCfZ5tR84PNm",
+  "sort": 600000,
+  "_key": "!items!qFhjMCfZ5tR84PNm"
+}

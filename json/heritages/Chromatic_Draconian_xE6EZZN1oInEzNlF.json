@@ -1,0 +1,79 @@
+{
+  "name": "Chromatic Draconian",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.948,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">You descended from the Dragon Queen. Your scales are colored in a matte green, black, white, red or blue color. You gain 10 Hit Points from your ancestry instead of 8 and gain a +1 circumstance bonus to Athletics checks to Break Open, Reposition and Shove foes.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Eonia",
+      "authors": "Regil",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "athletics",
+        "predicate": [
+          {
+            "or": [
+              "action:force-open",
+              "action:reposition",
+              "action:shove"
+            ]
+          }
+        ],
+        "type": "circumstance",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "hp"
+        ],
+        "value": 2
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "divine"
+      ],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Draconian",
+      "slug": "draconian",
+      "uuid": "Compendium.pf2e-pearlworld.ancestries.Item.RvI5u5oAtp9Hfaga"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "ivk0226jvhxTBtfa",
+  "ownership": {
+    "default": 0,
+    "fixcu0cIvWC9ejLr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4",
+    "createdTime": 1766158026707,
+    "modifiedTime": 1766158052454,
+    "lastModifiedBy": "fixcu0cIvWC9ejLr"
+  },
+  "_id": "xE6EZZN1oInEzNlF",
+  "sort": 100000,
+  "_key": "!items!xE6EZZN1oInEzNlF"
+}
