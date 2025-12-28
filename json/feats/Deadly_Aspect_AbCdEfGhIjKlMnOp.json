@@ -1,0 +1,92 @@
+{
+  "name": "Deadly Aspect",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.948,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You have honed the unarmed attack your draconic heritage has granted you to a lethal degree. The unarmed attack you gained from Dragon’s Might gains the deadly d8 trait.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          {
+            "or": [
+              "dragons-might:claw",
+              "dragons-might:jaws",
+              "dragons-might:tail"
+            ]
+          }
+        ],
+        "property": "traits",
+        "mode": "add",
+        "value": [
+          "deadly-d8"
+        ]
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "B3NYgZ1w0vnPi2Fx"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "folder": "1GZx3GgJdDfIdLYz",
+  "ownership": {
+    "default": 0,
+    "fixcu0cIvWC9ejLr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4",
+    "createdTime": 1765739144850,
+    "modifiedTime": 1766161359025,
+    "lastModifiedBy": "fixcu0cIvWC9ejLr"
+  },
+  "_id": "AbCdEfGhIjKlMnOp",
+  "sort": 1300000,
+  "_key": "!items!AbCdEfGhIjKlMnOp"
+}
