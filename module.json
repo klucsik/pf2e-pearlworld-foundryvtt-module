@@ -16,7 +16,7 @@
       "flags": {}
     }
   ],
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": [
     "scripts/pearlworld.js"
   ],
@@ -68,11 +68,22 @@
       "label": "Feats",
       "path": "packs/feats",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "packFolders": [
@@ -83,7 +94,8 @@
         "ancestries",
         "ancestry-features",
         "heritages",
-        "feats"
+        "feats",
+        "macros"
       ],
       "color": null,
       "folders": []
